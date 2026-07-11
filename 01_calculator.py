@@ -1,3 +1,14 @@
+# ====================================================
+# Project : Calculator
+# Day : 7
+# Author : Pleng
+# Language: Python
+#
+# Description: A simple calculator that performs
+# addition, subtraction, multiplication and divition
+# using functions and if-elif-else statements.
+# =====================================================
+
 # -*- coding: utf-8 -*-
 """Calculator.py
 
