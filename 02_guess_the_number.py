@@ -1,3 +1,12 @@
+# ==================================================================================
+# Project : Guess the Number
+# Day : 8
+# Author : Pleng
+# Language : Python
+#
+# Description: A simpl guessing game using while loops and if-elif-else statements.
+# ==================================================================================
+#
 # -*- coding: utf-8 -*-
 """guess_the_number
 
