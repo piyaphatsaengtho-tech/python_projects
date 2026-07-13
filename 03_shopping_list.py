@@ -1,3 +1,9 @@
+# Project: Shopping List
+# Day: 9
+# Language: Python
+# Author: Pleng
+# Description: A simple shopping list application using list, while loop, if-elif-else, append(), remove(), and len().
+#
 # -*- coding: utf-8 -*-
 """Shopping_List
 
