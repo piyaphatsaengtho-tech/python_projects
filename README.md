@@ -6,3 +6,4 @@ This repository contains my Python projrcts while learning programming.
 - 03 Shopping List
 ## Practice
 - Day 11 - For Loops and Functions
+- Day 14 - Functions and Return
