@@ -7,6 +7,7 @@ This repository contains my Python projrcts while learning programming.
 - 04 User Menu
 - 05 User Profile
 - 06 Todo List
+- 07 German Vocabulary
 ## Practice
 - Day 11 - For Loops and Functions
 - Day 14 - Functions and Return
