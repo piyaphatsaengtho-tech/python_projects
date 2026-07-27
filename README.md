@@ -8,6 +8,7 @@ This repository contains my Python projrcts while learning programming.
 - 05 User Profile
 - 06 Todo List
 - 07 German Vocabulary
+- 08 Germany Capitals Quiz
 ## Practice
 - Day 11 - For Loops and Functions
 - Day 14 - Functions and Return
