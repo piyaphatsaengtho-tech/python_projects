@@ -1,4 +1,30 @@
+"""
+Project     : German Flashcards
+Author      : Pleng
+Day         : Day 25
+Language    : Python
 
+Concepts:
+- Dictionary
+- Functions
+- while loop
+- if / else
+- .get()
+- .items()
+- .pop()
+
+Features:
+- Add new vocabulary
+- Show all vocabulary
+- Search German words
+- Remove vocabulary
+- Exit program
+
+Description:
+A simple German vocabulary flashcard application.
+Users can add, search, display, and remove vocabulary
+using a Python dictionary.
+"""
 
 
 ## Header
