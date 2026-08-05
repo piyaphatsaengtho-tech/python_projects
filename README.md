@@ -9,7 +9,7 @@ Every project represents my progress step by step.
 
 Current project:
 - German Flashcards with File Handling
-- 
+
 ## Projects
 - 01 Calculator
 - 02 Guess the Number
