@@ -1,5 +1,15 @@
-# python_projects
-This repository contains my Python projrcts while learning programming.
+# Python Learning Journey
+
+Hi!
+
+My name is Pleng.
+I started learning Python from scratch in July 2026.
+This repository contains my Python learning journey and practice projects.
+Every project represents my progress step by step.
+
+Current project:
+- German Flashcards with File Handling
+- 
 ## Projects
 - 01 Calculator
 - 02 Guess the Number
