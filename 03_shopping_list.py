@@ -1,41 +1,71 @@
-# ==============================================================================================================
+# ====================================
 # Project: Shopping List
-# Day: 9
+# Vertion: 2
+# Day: 12
 # Author: Pleng
-# Language: Python
-# Description: A shopping list application using list, while loop, if-elif-else, append(), remove(), and len().
-# ==============================================================================================================
+# Description: A shopping list program using:
+# - while loop
+# - if-elif-else
+# - list
+# - functions
+# - input
+# Features:
+# - Add items
+# - Remove items
+# - Show shopping list
+# - Exit program
+# ====================================
 
 print("===== Shopping List =====")
 print()
 shopping_list = []
 choose = 0
 
+def show_menu():
+  menu = ["Add items", "Remove item", "Show items", "Exit"]
+  count = 1
+  for item in menu:
+    print(count, item)
+    count = count + 1
+
+def add_item():
+  item = input("Add: ")
+  shopping_list.append(item)
+
+def remove_item():
+  if len(shopping_list) == 0:
+    print("We don't have anything yet :(")
+  else:
+    item = input("Remove: ")
+    if item not in shopping_list:
+      print("It is not in your list!")
+    else:
+      shopping_list.remove(item)
+
+def show_items():
+  if len(shopping_list) == 0:
+    print("Shopping List is empty.")
+  else:
+    print("===== Shopping List =====")
+    print()
+    count = 1
+    for item in shopping_list:
+      print(count, item)
+      count = count + 1
+    print()
+    print("Total:", len(shopping_list), "items")
+
 while choose != 4:
-  print("1. Add item")
-  print("2. Remove item")
-  print("3. Show items")
-  print("4. Exit")
+  show_menu()
   print()
   choose = int(input("Choose: "))
 
   if choose == 1:
-    item = input("Add: ")
-    shopping_list.append(item)
+    add_item()
   elif choose == 2:
-    if len(shopping_list) == 0:
-      print("We don't have anything yet :(")
-    else:
-      item = input("Remove: ")
-      if item not in shopping_list:
-        print("It is not in your list!")
-      else:
-        shopping_list.remove(item)
+    remove_item()
   elif choose == 3:
-    if len(shopping_list) == 0:
-      print("Shopping list is empty")
-    else:
-      print("Shopping List: ", shopping_list)
+    show_items()
   elif choose > 4 or choose <1:
     print("Please enter your correct choose!")
   else:
