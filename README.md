@@ -8,9 +8,11 @@ This repository contains my Python learning journey and practice projects.
 Every project represents my progress step by step.
 
 Current project:
+
 - German Flashcards with File Handling
 
 ## Projects
+
 - 01 Calculator
 - 02 Guess the Number
 - 03 Shopping List
@@ -20,7 +22,10 @@ Current project:
 - 07 German Vocabulary
 - 08 Germany Capitals Quiz
 - 09 German Flashcards
+
 ## Practice
+
 - Day 11 - For Loops and Functions
 - Day 14 - Functions and Return
 - Day 24 - Dictionary
+- Day 36 - Object-Oriented Programming (OOP)
