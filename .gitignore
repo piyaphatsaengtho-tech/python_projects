@@ -1,1 +1,3 @@
 vocabulary.txt
+*.pkl
+__pycache__/
